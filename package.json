@@ -1,0 +1,29 @@
+{
+  "name": "test_uber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "nightwatch.conf.js",
+  "directories": {
+    "tests": "tests"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/nightwatch /tests/uber.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MDrapala/test_uber.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MDrapala/test_uber/issues"
+  },
+  "homepage": "https://github.com/MDrapala/test_uber.git#readme",
+  "devDependencies": {
+    "add": "2.0.6",
+    "chromedriver": "^87.0.7",
+    "geckodriver": "^1.21.1",
+    "nightwatch": "^1.5.1",
+    "selenium-server": "^3.141.59"
+  }
+}

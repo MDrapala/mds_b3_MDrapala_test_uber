@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="2"
+            tests="2">
+
+  <testsuite name="uber"
+    errors="1" failures="2" hostname="" id="" package="uber" skipped="8"
+    tests="2" time="12.76" timestamp="">
+  
+    <testcase name="Open Uber Website" classname="uber" time="7.277" assertions="3">
+
+      <failure message="Testing if element &lt;head&gt; is visible in 5000ms - expected &#34;is visible&#34; but got: &#34;not visible&#34; (5108ms)">    at DescribeInstance.&lt;anonymous&gt; (/Users/mathieudrapala/Desktop/test/test_uber/tests/uber.js:7:15)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Check block login in the header wrapper" classname="uber" time="5.484" assertions="2">
+
+      <failure message="Testing if element &lt;button[id=&#34;inscription&#34;]&gt; is visible in 5000ms - expected &#34;is visible&#34; but got: &#34;element could not be located&#34; (5201ms)">    at DescribeInstance.&lt;anonymous&gt; (/Users/mathieudrapala/Desktop/test/test_uber/tests/uber.js:14:15)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+
+    
+    <error message="Error while running &#34;visible&#34; command: Testing if element [0;33m&lt;button[id=&#34;inscription&#34;]&gt;[0m is visible in 5000ms - expected [0;32m&#34;is visible&#34;[0m but got: [0;31m&#34;element could not be located&#34;[0m [0;90m(5201ms)[0m" type="error"><![CDATA[
+        at DescribeInstance.&lt;anonymous&gt; (/Users/mathieudrapala/Desktop/test/test_uber/tests/uber.js:14:15)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+        NoSuchElementError: An error occurred while running .isVisible() command on &lt;button[id=&#34;inscription&#34;]&gt;: 
+   {&#34;sessionId&#34;:&#34;01954bdd0ad1f800f80669a215faa451461d9a27&#34;,&#34;state&#34;:&#34;success&#34;,&#34;hCode&#34;:43782,&#34;value&#34;:[],&#34;class&#34;:&#34;org.openqa.selenium.remote.Response&#34;,&#34;status&#34;:0}
+       at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    </system-err>
+  
+
+    
+
+  
+    
+    <testcase
+      name="Check login in two sections" classname="uber">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Check login chauffeur section" classname="uber">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Check login passager section" classname="uber">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Check registration block in two sections" classname="uber">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Check registration block with devenir professionnal section" classname="uber">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Check registration block with commander une course action" classname="uber">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Registration with commander une course section shouldn&#39;t pass" classname="uber">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Registration should pass" classname="uber">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
